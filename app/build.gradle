@@ -3,8 +3,8 @@ plugins {
 }
 
 android {
-    compileSdkVersion 31
-    buildToolsVersion "30.0.3"
+
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "be.fpluquet.labo3"
@@ -26,6 +26,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    namespace 'be.fpluquet.labo3'
 }
 
 dependencies {
